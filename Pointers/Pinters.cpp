@@ -25,6 +25,34 @@ int main() {
     // double *ptr = &dl;
     // cout<<*ptr<<endl;
 
+    int num = 100;
+    int *ptr = &num;
+
+
+    // cout<<num<<endl;
+    // cout<<*ptr<<endl;
+    // cout<<ptr<<endl;
+
+    cout<<sizeof(num)<<endl;
+    cout<<sizeof(*ptr)<<endl;
+    cout<<sizeof(ptr)<<endl;
+
+
+
+    double value = 90.78;
+    double *ptr2 = &value;
+
+    cout<<sizeof(value)<<endl;
+    cout<<sizeof(ptr2)<<endl;
+    
+    cout<<endl;
+    long double lg = 9938.3;
+    long double *lgPtr = &lg;
+    cout<<sizeof(lg)<<endl;
+    cout<<sizeof(lgPtr)<<endl;
+
+
+
 
     return 0;
 }
